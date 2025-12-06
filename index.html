@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zuggeits Meriño - Mi Perfil Profesional</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos personalizados simples */
+    .header-bg {
+      background-color: #f8f9fa; /* Color de fondo suave para el encabezado */
+      padding: 20px 0;
+      border-bottom: 3px solid #0B4203FF; /* Borde azul de Bootstrap */
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 250px; /* Tamaño máximo para la imagen */
+      height: auto;
+      border: 5px solid #6c757d; /* Borde gris para la imagen */
+      border-radius: 10px; /* Bordes redondeados */
+      object-fit: cover;
+    }
+    .footer-bg {
+      background-color: #343a40; /* Fondo oscuro para el footer */
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header-bg text-center">
+  <h1 class="display-4 fw-bold text-primary">
+    ZUGGEITS MERIÑO RAMIREZ
+  </h1>
+</header>
+
+<main class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center mb-4 mb-md-0">
+
+      <img src="mi foto.jpg" alt="Fotografia de Zuggeits Meriño" class="profile-img shadow">
+    </div>
+
+    <div class="col-md-8">
+      <p class="lead">
+        Profesional con formación en **Programación de Computadores**, **Análisis de Sistemas** y experiencia reciente como
+        **Técnico de Soporte Informático** en proyectos tecnológicos como de AFP Provida por Sonda.
+      </p>
+      <p>
+        Cuento con una trayectoria multidisciplinaria en áreas administrativas, atención al cliente y gestión de plataformas digitales,
+        que me ha permitido desarrollar una alta capacidad de **adaptación**, **resolución de problemas** y **comunicación efectiva**.
+      </p>
+      <p>
+        Estoy orientada a fortalecer mi carrera en el ámbito del **desarrollo de software** y **tecnologías de la información**,
+        integrando mis habilidades técnicas con mi experiencia en soporte, análisis y operación de sistemas.
+      </p>
+      <p class="text-info fw-bold">
+        Busco oportunidades en **desarrollo de software**, **QA**, **soporte TI**, **automatización** o roles tech junior,
+        donde pueda seguir creciendo profesionalmente.
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer class="footer-bg py-3 mt-5">
+  <div class="container d-flex justify-content-between align-items-center">
+    <p class="m-0 small">&copy; 2025 Mi Sitio Web | Todos los derechos reservados.</p>
+
+    <div class="d-flex gap-3">
+      <a href="https://www.linkedin.com/in/zuggeitsmerino/" class="btn btn-outline-light btn-sm" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Zumeram" class="btn btn-outline-light btn-sm" target="_blank">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function() {
+    console.log("El documento está listo. jQuery está funcionando.");
+    // Aquí podrías añadir interactividad, como un efecto al pasar el mouse.
+    // Ejemplo: Al pasar el mouse sobre el título, cambia el color brevemente
+    $('.display-4').hover(
+      function() {
+        $(this).css('color', '#dc3545'); // Cambia a rojo
+      },
+      function() {
+        $(this).css('color', '#0F1E36FF'); // Vuelve al azul primario
+      }
+    );
+  });
+</script>
+
+</body>
+</html>
